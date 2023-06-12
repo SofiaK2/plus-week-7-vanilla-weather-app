@@ -1,10 +1,26 @@
 body {
     font-family: 'Bellefair', serif;
-    padding-top: 20px;
+    padding-top: 40px;
+    background-color: rgb(209, 249, 255); 
+}
+
+.container {
+    margin: auto; 
+    max-width: 800px;
+}
+    
+.card {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/125/original/photo.jpg?1683581374");
     background-size: cover;
     background-repeat: no-repeat;
+    --bs-card-border-color: none;
+    --bs-card-inner-border-radius: none;
 }
+
+.row {
+    padding-left: 55px;
+}
+
 h2 {
     font-size: 20px;
     text-align: center;
