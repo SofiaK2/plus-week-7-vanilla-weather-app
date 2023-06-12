@@ -25,59 +25,85 @@ h2 {
     font-size: 20px;
     text-align: center;
 }
+
 h3 {
   font-size: 40px;
 }
+
 .units { 
     cursor: pointer;  
 }
+
 h4, h5, h6 {
     text-align: center;
 }
+
 .city {
   font-size: 35px;
 }
+
 .current {
     position: relative;
     left: 50px;
 }
+
 .wind, .uv, .sun {
     text-decoration: underline;
     font-size: 20px;
 }
+
+.friday, .saturday {
+    color: white;
+}
+
 .units {
     font-size: 20px;
     position: relative;
     top: -25px;
 }
+
+.temp {
+    font-size: 65px;
+}
+
 .right {
     position: relative;
     right: 50px;
 }
+
 .left {
     position: relative;
     left: 50px;
 }
+
 .high {
     position: relative;
     right: 50px;
     color: red;
     font-size: 15px;
 }
+
 .low {
     position: relative;
     left: 50px;
     color: blue;
     font-size: 15px;
 }
+
 .sunrise {
     position: relative;
     right: 50px;
 }
+
 .sunset {
     position: relative;
     left: 50px;
 }
+
+.sunset, .sunrise, .sun {
+    color: white;
+}
+
 .cities {
     position: relative;
     left: 150px;
@@ -94,11 +120,13 @@ button {
     box-shadow: 5px 5px 5px rgba(189, 188, 191, 0.4);
     transition: all 200ms ease-in-out;
 }
+
 button:hover {
     background: #1b64d7;
     color: white;
     cursor: pointer;
 }
+
 .btn1 {
     padding: 10px 27px 10px 27px;
 }
@@ -113,4 +141,9 @@ button:hover {
 }
 footer {
     text-align: center;
+    color: white;
+}
+
+.github {
+    color: yellow;
 }
